@@ -1,39 +1,70 @@
-# Maintained implementation
-
-See [repairs and current run instructions](docs/REPAIRS.md) for the corrected entry points and validation limits. Historical notebook outputs are retained as experiment records; they are not results of the corrected implementation.
-
 # Speech Emotion Recognition
+**Audio processing · Deep learning · Model comparison · Desktop inference**
 
-Research experiments using MFCC and discrete wavelet transform (DWT) features with LSTM, CNN-LSTM and ResNet-based networks, plus microphone prediction prototypes.
+A research project exploring how speech features and neural architectures affect emotion classification. The work combines MFCC features, discrete wavelet decomposition and sequence models, with experiments across four speech datasets and a desktop prediction prototype.
 
-## Recorded validation results
+[Project report](reports/CSH2.pdf) · [Research notebooks](notebooks/experiments/) · [Recorded results](results/metrics/) · [Demonstration guide](docs/DEMO.md)
 
-These are saved experimental results, not independently reproduced benchmarks. Each row is a separate dataset experiment; no cross-dataset generalisation claim is implied.
+## Work included
 
-| Dataset | CNN-LSTM validation accuracy | MFCC coefficients | DWT level | Epochs |
+- MFCC feature extraction and wavelet decomposition experiments.
+- LSTM, CNN-LSTM, ResNet-LSTM and RNN architecture variants.
+- Dataset-specific validation accuracy, precision, recall and F1 records.
+- A Tkinter interface and saved-model prediction implementation.
+
+## Workflow
+
+```mermaid
+flowchart TD
+    A["Speech recordings"] --> B["MFCC / DWT feature extraction"]
+    B --> C["Neural model experiments"]
+    C --> D["Dataset-specific evaluation"]
+    C --> E["Desktop prediction prototype"]
+```
+
+The maintained desktop entry point uses the uploaded MFCC-only LSTM checkpoint. It is separate from the DWT CNN-LSTM research experiments.
+
+## Recorded CNN-LSTM results
+
+| Dataset | Validation accuracy | MFCC count | DWT level | Epochs |
 |---|---:|---:|---:|---:|
-| TESS | 99.64% | 40 | 1 | 500 |
+| TESS | **99.64%** | 40 | 1 | 500 |
 | CREMA-D | 48.96% | 40 | 2 | 500 |
 | SAVEE | 75.00% | 40 | 1 | 500 |
 | RAVDESS | 59.03% | 40 | 1 | 500 |
 
-Source: [saved validation table](results/metrics/Validation_Highest_Accuracy_Metrics_CNN_LSTM.csv). Values describe validation, not a separate held-out test evaluation.
+Source: [uploaded validation CSV](results/metrics/Validation_Highest_Accuracy_Metrics_CNN_LSTM.csv). These are recorded validation results from separate experiments. The variation between datasets is a key finding: a high score on one dataset does not establish performance on another.
 
-## Explore the project
+## Original experiment visuals
 
-- Training: [CNN-LSTM](cnn%20lstm.ipynb), [PyTorch training](pytorch%20train.ipynb), [ResNet-LSTM](Resnet%20LSTM.ipynb).
-- Features: [MFCC experiments](Experimenting%20MFCC.ipynb).
-- Demonstrations: [Tkinter app](app.ipynb), [real-time experiment](Real_Time.ipynb), [PyTorch prediction](pytorch%20predict.ipynb).
-- Evidence: [metrics](results/metrics/), [figures](results/figures/), [report](reports/CSH2.pdf).
-- [Repository inventory and duplicate analysis](docs/INVENTORY.md).
-- [Reproduction notes and known issues](docs/REPRODUCIBILITY.md).
+### CNN-LSTM
+![Original CNN-LSTM experiment graphs](results/figures/CNN_LSTM%20Graphs.png)
 
-## Environment and data
+### LSTM
+![Original LSTM experiment graphs](results/figures/LSTM%20Graphs.png)
 
-Create a separate Python environment, install the candidate dependencies in requirements.txt, then launch Jupyter from the repository root. Dependency versions were not supplied with the upload; this is not a tested environment lock.
+These are original uploaded experiment outputs.
 
-Obtain TESS, CREMA-D, RAVDESS and SAVEE from their original providers and follow their usage conditions. Full audio datasets are not included. Set dataset and checkpoint paths in the chosen notebook before running it.
+## Repository guide
 
-The included LSTM checkpoint is not automatically interchangeable with the CNN-LSTM checkpoint referenced by the GUI. The demo also references an absent microphone image.
+| Location | Contents |
+|---|---|
+| [notebooks/experiments/](notebooks/experiments/) | Training, features and architecture variants |
+| [notebooks/analysis/](notebooks/analysis/) | Metric summaries and plotting notebooks |
+| [results/](results/) | Recorded metrics and original figures |
+| [reports/](reports/) | Uploaded project report |
+| [app.py](app.py) / [predict.py](predict.py) | Maintained desktop and CLI inference |
+| [archive/](archive/) | Earlier versions of replaced demo notebooks |
+| [docs/](docs/) | Walkthrough, inventory and technical notes |
 
-Original notebook filenames and checkpoint locations are preserved to avoid silently changing experiment behaviour. Metrics, figures and the report are grouped by purpose; see the inventory for old-to-new paths.
+**Start with the report**, then follow the experiments and evaluation evidence.
+
+<details>
+<summary>Setup and future work</summary>
+
+Install requirements.txt in a separate Python environment and run python app.py. The correct checkpoint label-order JSON is required. [Full demonstration instructions](docs/DEMO.md).
+
+Future work: restore verified dataset/checkpoint metadata, confirm speaker-independent evaluation and rerun the selected configuration. Model inference has not been independently rerun in this workspace.
+
+[Implementation notes](docs/REPAIRS.md) · [Initial review](docs/REPRODUCIBILITY.md)
+</details>
