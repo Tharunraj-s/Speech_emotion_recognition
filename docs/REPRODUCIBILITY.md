@@ -1,3 +1,7 @@
+# Historical pre-repair review
+
+This records the initial upload review. See [REPAIRS.md](REPAIRS.md) for fixes now applied, current entry points and remaining validation requirements.
+
 # Reproduction review
 
 This review inspected selected training/demo source and the saved CNN-LSTM validation CSV. Training and microphone inference have not been executed.

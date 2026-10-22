@@ -1,3 +1,7 @@
+# Maintained implementation
+
+See [repairs and current run instructions](docs/REPAIRS.md) for the corrected entry points and validation limits. Historical notebook outputs are retained as experiment records; they are not results of the corrected implementation.
+
 # Speech Emotion Recognition
 
 Research experiments using MFCC and discrete wavelet transform (DWT) features with LSTM, CNN-LSTM and ResNet-based networks, plus microphone prediction prototypes.
