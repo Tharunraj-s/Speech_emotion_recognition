@@ -1,0 +1,13 @@
+# Candidate dependencies inferred from inspected notebooks; versions not verified.
+numpy
+pandas
+matplotlib
+seaborn
+librosa
+PyWavelets
+torch
+torchvision
+scikit-learn
+Pillow
+PyAudio
+jupyter
