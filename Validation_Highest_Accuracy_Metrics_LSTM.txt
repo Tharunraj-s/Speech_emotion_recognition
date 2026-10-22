@@ -1,0 +1,32 @@
+Model: LSTM, Dataset: tess, MFCC: 40, DWT Level: 4, Epochs: 500
+Validation Loss         1.189395
+Validation Accuracy     0.976786
+Validation Precision    0.976824
+Validation Recall       0.976786
+Validation F1-Score     0.976751
+Name: 231, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, MFCC: 32, DWT Level: 3, Epochs: 500
+Validation Loss         1.588945
+Validation Accuracy     0.450638
+Validation Precision    0.448222
+Validation Recall       0.450638
+Validation F1-Score     0.447919
+Name: 146, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 16, DWT Level: 1, Epochs: 500
+Validation Loss         1.446159
+Validation Accuracy     0.625000
+Validation Precision    0.677731
+Validation Recall       0.625000
+Validation F1-Score     0.628075
+Name: 94, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 16, DWT Level: 3, Epochs: 500
+Validation Loss         1.842574
+Validation Accuracy     0.430556
+Validation Precision    0.452478
+Validation Recall       0.430556
+Validation F1-Score     0.435765
+Name: 408, dtype: float64
+==================================================

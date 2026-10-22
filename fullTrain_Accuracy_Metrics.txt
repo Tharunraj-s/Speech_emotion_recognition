@@ -1,0 +1,504 @@
+Model: CNN_LSTM, Dataset: tess, MFCC: 32, DWT Level: 1, Epochs: 500
+Training Loss         1.16799
+Training Accuracy     1.00000
+Training Precision    1.00000
+Training Recall       1.00000
+Training F1-Score     1.00000
+Name: 175, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 32, DWT Level: 3, Epochs: 500
+Training Loss         1.169152
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 298, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 32, DWT Level: 4, Epochs: 500
+Training Loss         1.169713
+Training Accuracy     0.999554
+Training Precision    0.999555
+Training Recall       0.999554
+Training F1-Score     0.999554
+Name: 183, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 32, DWT Level: 5, Epochs: 500
+Training Loss         1.166391
+Training Accuracy     0.999554
+Training Precision    0.999555
+Training Recall       0.999554
+Training F1-Score     0.999554
+Name: 148, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.169765
+Training Accuracy     0.999107
+Training Precision    0.999109
+Training Recall       0.999107
+Training F1-Score     0.999107
+Name: 331, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 1, Epochs: 200
+Training Loss         1.167637
+Training Accuracy     0.999107
+Training Precision    0.999109
+Training Recall       0.999107
+Training F1-Score     0.999107
+Name: 191, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.168259
+Training Accuracy     0.998661
+Training Precision    0.998662
+Training Recall       0.998661
+Training F1-Score     0.998661
+Name: 103, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.166325
+Training Accuracy     0.999554
+Training Precision    0.999555
+Training Recall       0.999554
+Training F1-Score     0.999554
+Name: 106, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.166764
+Training Accuracy     0.999107
+Training Precision    0.999113
+Training Recall       0.999107
+Training F1-Score     0.999107
+Name: 171, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.166712
+Training Accuracy     0.999554
+Training Precision    0.999555
+Training Recall       0.999554
+Training F1-Score     0.999554
+Name: 379, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 32, DWT Level: 3, Epochs: 500
+Training Loss         1.155237
+Training Accuracy     0.886780
+Training Precision    0.886914
+Training Recall       0.886780
+Training F1-Score     0.886558
+Name: 495, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.193733
+Training Accuracy     0.853687
+Training Precision    0.853657
+Training Recall       0.853687
+Training F1-Score     0.853312
+Name: 483, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.174401
+Training Accuracy     0.874181
+Training Precision    0.875146
+Training Recall       0.874181
+Training F1-Score     0.873861
+Name: 499, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.191536
+Training Accuracy     0.854527
+Training Precision    0.854721
+Training Recall       0.854527
+Training F1-Score     0.854322
+Name: 499, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.152484
+Training Accuracy     0.890811
+Training Precision    0.891392
+Training Recall       0.890811
+Training F1-Score     0.890691
+Name: 490, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.174177
+Training Accuracy     0.870989
+Training Precision    0.872238
+Training Recall       0.870989
+Training F1-Score     0.870471
+Name: 486, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 24, DWT Level: 1, Epochs: 500
+Training Loss         1.216674
+Training Accuracy     0.825521
+Training Precision    0.838206
+Training Recall       0.825521
+Training F1-Score     0.820606
+Name: 455, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 24, DWT Level: 5, Epochs: 500
+Training Loss         1.167192
+Training Accuracy     0.877604
+Training Precision    0.889732
+Training Recall       0.877604
+Training F1-Score     0.874791
+Name: 461, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.178552
+Training Accuracy     0.864583
+Training Precision    0.877765
+Training Recall       0.864583
+Training F1-Score     0.864311
+Name: 467, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.176118
+Training Accuracy     0.875000
+Training Precision    0.890892
+Training Recall       0.875000
+Training F1-Score     0.873990
+Name: 483, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.189805
+Training Accuracy     0.877604
+Training Precision    0.884413
+Training Recall       0.877604
+Training F1-Score     0.876841
+Name: 457, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.200684
+Training Accuracy     0.843750
+Training Precision    0.853559
+Training Recall       0.843750
+Training F1-Score     0.837323
+Name: 352, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.141710
+Training Accuracy     0.903646
+Training Precision    0.913512
+Training Recall       0.903646
+Training F1-Score     0.903488
+Name: 452, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 24, DWT Level: 1, Epochs: 500
+Training Loss         1.401582
+Training Accuracy     0.877604
+Training Precision    0.879054
+Training Recall       0.877604
+Training F1-Score     0.877239
+Name: 499, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 24, DWT Level: 2, Epochs: 500
+Training Loss         1.393094
+Training Accuracy     0.892361
+Training Precision    0.895496
+Training Recall       0.892361
+Training F1-Score     0.892346
+Name: 495, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.448563
+Training Accuracy     0.824653
+Training Precision    0.828304
+Training Recall       0.824653
+Training F1-Score     0.824262
+Name: 498, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.392768
+Training Accuracy     0.883681
+Training Precision    0.887689
+Training Recall       0.883681
+Training F1-Score     0.882795
+Name: 499, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.496500
+Training Accuracy     0.782118
+Training Precision    0.739216
+Training Recall       0.782118
+Training F1-Score     0.755596
+Name: 459, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.396428
+Training Accuracy     0.878472
+Training Precision    0.882100
+Training Recall       0.878472
+Training F1-Score     0.877632
+Name: 482, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.607603
+Training Accuracy     0.670139
+Training Precision    0.581669
+Training Recall       0.670139
+Training F1-Score     0.614415
+Name: 499, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.173903
+Training Accuracy     0.991964
+Training Precision    0.991992
+Training Recall       0.991964
+Training F1-Score     0.991962
+Name: 208, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.172115
+Training Accuracy     0.993750
+Training Precision    0.993751
+Training Recall       0.993750
+Training F1-Score     0.993748
+Name: 176, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.173622
+Training Accuracy     0.994196
+Training Precision    0.994213
+Training Recall       0.994196
+Training F1-Score     0.994199
+Name: 268, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.174902
+Training Accuracy     0.991071
+Training Precision    0.991087
+Training Recall       0.991071
+Training F1-Score     0.991065
+Name: 293, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.172129
+Training Accuracy     0.994196
+Training Precision    0.994203
+Training Recall       0.994196
+Training F1-Score     0.994192
+Name: 229, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.357550
+Training Accuracy     0.705023
+Training Precision    0.709398
+Training Recall       0.705023
+Training F1-Score     0.704439
+Name: 462, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.409402
+Training Accuracy     0.642869
+Training Precision    0.642665
+Training Recall       0.642869
+Training F1-Score     0.638436
+Name: 497, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.234011
+Training Accuracy     0.816395
+Training Precision    0.818659
+Training Recall       0.816395
+Training F1-Score     0.815666
+Name: 456, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.218423
+Training Accuracy     0.828658
+Training Precision    0.829537
+Training Recall       0.828658
+Training F1-Score     0.828019
+Name: 489, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.224096
+Training Accuracy     0.821771
+Training Precision    0.825001
+Training Recall       0.821771
+Training F1-Score     0.821841
+Name: 491, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 16, DWT Level: 1, Epochs: 500
+Training Loss         1.194139
+Training Accuracy     0.848958
+Training Precision    0.856066
+Training Recall       0.848958
+Training F1-Score     0.840681
+Name: 441, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.227440
+Training Accuracy     0.817708
+Training Precision    0.837333
+Training Recall       0.817708
+Training F1-Score     0.815177
+Name: 395, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.257165
+Training Accuracy     0.786458
+Training Precision    0.803543
+Training Recall       0.786458
+Training F1-Score     0.781269
+Name: 367, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.282033
+Training Accuracy     0.760417
+Training Precision    0.759668
+Training Recall       0.760417
+Training F1-Score     0.752664
+Name: 423, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.335775
+Training Accuracy     0.705729
+Training Precision    0.634385
+Training Recall       0.705729
+Training F1-Score     0.656796
+Name: 390, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.296007
+Training Accuracy     0.750000
+Training Precision    0.760241
+Training Recall       0.750000
+Training F1-Score     0.742320
+Name: 406, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 16, DWT Level: 3, Epochs: 500
+Training Loss         1.452115
+Training Accuracy     0.818576
+Training Precision    0.823899
+Training Recall       0.818576
+Training F1-Score     0.817770
+Name: 489, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 1, Epochs: 500
+Training Loss         1.473317
+Training Accuracy     0.801215
+Training Precision    0.804140
+Training Recall       0.801215
+Training F1-Score     0.800010
+Name: 499, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 2, Epochs: 500
+Training Loss         1.478844
+Training Accuracy     0.792535
+Training Precision    0.794747
+Training Recall       0.792535
+Training F1-Score     0.790366
+Name: 499, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 3, Epochs: 500
+Training Loss         1.439573
+Training Accuracy     0.834201
+Training Precision    0.836924
+Training Recall       0.834201
+Training F1-Score     0.833172
+Name: 499, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 4, Epochs: 500
+Training Loss         1.552043
+Training Accuracy     0.724826
+Training Precision    0.731407
+Training Recall       0.724826
+Training F1-Score     0.717714
+Name: 361, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 5, Epochs: 500
+Training Loss         1.494941
+Training Accuracy     0.776910
+Training Precision    0.784123
+Training Recall       0.776910
+Training F1-Score     0.774131
+Name: 490, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: tess, MFCC: 32, DWT Level: 1, Epochs: 200
+Training Loss         0.002644
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 76, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: tess, MFCC: 40, DWT Level: 1, Epochs: 200
+Training Loss         0.002532
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 23, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: tess, MFCC: 40, DWT Level: 4, Epochs: 200
+Training Loss         0.002533
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 34, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: crema, MFCC: 32, DWT Level: 1, Epochs: 200
+Training Loss         0.091697
+Training Accuracy     0.981858
+Training Precision    0.981880
+Training Recall       0.981858
+Training F1-Score     0.981849
+Name: 174, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: crema, MFCC: 32, DWT Level: 3, Epochs: 200
+Training Loss         0.021339
+Training Accuracy     0.997480
+Training Precision    0.997486
+Training Recall       0.997480
+Training F1-Score     0.997481
+Name: 194, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: savee, MFCC: 24, DWT Level: 1, Epochs: 200
+Training Loss         0.086427
+Training Accuracy     0.994792
+Training Precision    0.994907
+Training Recall       0.994792
+Training F1-Score     0.994800
+Name: 168, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: savee, MFCC: 24, DWT Level: 1, Epochs: 501
+Training Loss         0.03941
+Training Accuracy     1.00000
+Training Precision    1.00000
+Training Recall       1.00000
+Training F1-Score     1.00000
+Name: 471, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: savee, MFCC: 40, DWT Level: 1, Epochs: 200
+Training Loss         0.070058
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 134, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: ravdess, MFCC: 24, DWT Level: 1, Epochs: 200
+Training Loss         0.100021
+Training Accuracy     0.991319
+Training Precision    0.991456
+Training Recall       0.991319
+Training F1-Score     0.991324
+Name: 119, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: ravdess, MFCC: 24, DWT Level: 1, Epochs: 501
+Training Loss         0.004414
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 477, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: ravdess, MFCC: 32, DWT Level: 2, Epochs: 200
+Training Loss         0.020093
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 162, dtype: float64
+==================================================

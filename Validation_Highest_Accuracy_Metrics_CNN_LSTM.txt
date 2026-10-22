@@ -1,0 +1,32 @@
+Model: CNN_LSTM, Dataset: tess, MFCC: 40, DWT Level: 1, Epochs: 500
+Validation Loss         1.169061
+Validation Accuracy     0.996429
+Validation Precision    0.996451
+Validation Recall       0.996429
+Validation F1-Score     0.996428
+Name: 405, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, MFCC: 40, DWT Level: 2, Epochs: 500
+Validation Loss         1.545698
+Validation Accuracy     0.489590
+Validation Precision    0.485058
+Validation Recall       0.489590
+Validation F1-Score     0.478037
+Name: 126, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, MFCC: 40, DWT Level: 1, Epochs: 500
+Validation Loss         1.298898
+Validation Accuracy     0.750000
+Validation Precision    0.751541
+Validation Recall       0.750000
+Validation F1-Score     0.742459
+Name: 373, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, MFCC: 40, DWT Level: 1, Epochs: 500
+Validation Loss         1.687878
+Validation Accuracy     0.590278
+Validation Precision    0.601561
+Validation Recall       0.590278
+Validation F1-Score     0.587818
+Name: 361, dtype: float64
+==================================================

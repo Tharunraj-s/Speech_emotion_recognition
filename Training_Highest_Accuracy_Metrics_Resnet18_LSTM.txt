@@ -1,0 +1,32 @@
+Model: Resnet18_LSTM, Dataset: tess, MFCC: 32, DWT Level: 1, Epochs: 200
+Training Loss         0.002644
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 76, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: crema, MFCC: 32, DWT Level: 3, Epochs: 200
+Training Loss         0.021339
+Training Accuracy     0.997480
+Training Precision    0.997486
+Training Recall       0.997480
+Training F1-Score     0.997481
+Name: 194, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: savee, MFCC: 24, DWT Level: 1, Epochs: 501
+Training Loss         0.03941
+Training Accuracy     1.00000
+Training Precision    1.00000
+Training Recall       1.00000
+Training F1-Score     1.00000
+Name: 471, dtype: float64
+==================================================
+Model: Resnet18_LSTM, Dataset: ravdess, MFCC: 24, DWT Level: 1, Epochs: 501
+Training Loss         0.004414
+Training Accuracy     1.000000
+Training Precision    1.000000
+Training Recall       1.000000
+Training F1-Score     1.000000
+Name: 477, dtype: float64
+==================================================
