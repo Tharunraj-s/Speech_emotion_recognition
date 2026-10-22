@@ -1,0 +1,448 @@
+Model: CNN_LSTM, Dataset: tess, Level: 16, Epochs: 500
+Epoch                  211.000000
+Training Loss            1.168371
+Training Accuracy        0.997768
+Training Precision       0.997778
+Training Recall          0.997768
+Training F1-Score        0.997767
+Validation Loss          1.230278
+Validation Accuracy      0.933929
+Validatio Precision      0.935530
+Validatio Recall         0.933929
+Validatio F1-Score       0.933959
+Name: 210, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, Level: 24, Epochs: 500
+Epoch                  68.000000
+Training Loss           1.170087
+Training Accuracy       0.999554
+Training Precision      0.999555
+Training Recall         0.999554
+Training F1-Score       0.999554
+Validation Loss         1.182228
+Validation Accuracy     0.983929
+Validatio Precision     0.984343
+Validatio Recall        0.983929
+Validatio F1-Score      0.983865
+Name: 67, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, Level: 32, Epochs: 500
+Epoch                  71.000000
+Training Loss           1.167676
+Training Accuracy       0.999554
+Training Precision      0.999555
+Training Recall         0.999554
+Training F1-Score       0.999554
+Validation Loss         1.174746
+Validation Accuracy     0.991071
+Validatio Precision     0.991117
+Validatio Recall        0.991071
+Validatio F1-Score      0.991059
+Name: 70, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: tess, Level: 40, Epochs: 500
+Epoch                  27.000000
+Training Loss           1.169993
+Training Accuracy       1.000000
+Training Precision      1.000000
+Training Recall         1.000000
+Training F1-Score       1.000000
+Validation Loss         1.171928
+Validation Accuracy     0.992857
+Validatio Precision     0.992970
+Validatio Recall        0.992857
+Validatio F1-Score      0.992839
+Name: 26, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, Level: 16, Epochs: 500
+Epoch                  498.000000
+Training Loss            1.137243
+Training Accuracy        0.906938
+Training Precision       0.907363
+Training Recall          0.906938
+Training F1-Score        0.906681
+Validation Loss          1.637789
+Validation Accuracy      0.400269
+Validatio Precision      0.395304
+Validatio Recall         0.400269
+Validatio F1-Score       0.395941
+Name: 497, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, Level: 24, Epochs: 500
+Epoch                  499.000000
+Training Loss            1.134450
+Training Accuracy        0.909793
+Training Precision       0.910085
+Training Recall          0.909793
+Training F1-Score        0.909591
+Validation Loss          1.614973
+Validation Accuracy      0.423103
+Validatio Precision      0.422491
+Validatio Recall         0.423103
+Validatio F1-Score       0.422376
+Name: 498, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, Level: 32, Epochs: 500
+Epoch                  495.000000
+Training Loss            1.128357
+Training Accuracy        0.915001
+Training Precision       0.915213
+Training Recall          0.915001
+Training F1-Score        0.914807
+Validation Loss          1.617696
+Validation Accuracy      0.422431
+Validatio Precision      0.423639
+Validatio Recall         0.422431
+Validatio F1-Score       0.420624
+Name: 494, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: crema, Level: 40, Epochs: 500
+Epoch                  500.000000
+Training Loss            1.141030
+Training Accuracy        0.902906
+Training Precision       0.903456
+Training Recall          0.902906
+Training F1-Score        0.902608
+Validation Loss          1.578954
+Validation Accuracy      0.456682
+Validatio Precision      0.453834
+Validatio Recall         0.456682
+Validatio F1-Score       0.454644
+Name: 499, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, Level: 16, Epochs: 500
+Epoch                  482.000000
+Training Loss            1.097329
+Training Accuracy        0.945312
+Training Precision       0.945286
+Training Recall          0.945312
+Training F1-Score        0.945050
+Validation Loss          1.398059
+Validation Accuracy      0.645833
+Validatio Precision      0.643103
+Validatio Recall         0.645833
+Validatio F1-Score       0.639439
+Name: 481, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, Level: 24, Epochs: 500
+Epoch                  488.000000
+Training Loss            1.081232
+Training Accuracy        0.963542
+Training Precision       0.964343
+Training Recall          0.963542
+Training F1-Score        0.963573
+Validation Loss          1.405880
+Validation Accuracy      0.645833
+Validatio Precision      0.662370
+Validatio Recall         0.645833
+Validatio F1-Score       0.646641
+Name: 487, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, Level: 32, Epochs: 500
+Epoch                  386.000000
+Training Loss            1.171834
+Training Accuracy        0.877604
+Training Precision       0.895045
+Training Recall          0.877604
+Training F1-Score        0.854989
+Validation Loss          1.391397
+Validation Accuracy      0.645833
+Validatio Precision      0.575038
+Validatio Recall         0.645833
+Validatio F1-Score       0.599617
+Name: 385, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: savee, Level: 40, Epochs: 500
+Epoch                  337.000000
+Training Loss            1.188658
+Training Accuracy        0.859375
+Training Precision       0.871003
+Training Recall          0.859375
+Training F1-Score        0.855647
+Validation Loss          1.380236
+Validation Accuracy      0.656250
+Validatio Precision      0.689718
+Validatio Recall         0.656250
+Validatio F1-Score       0.637503
+Name: 336, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, Level: 16, Epochs: 500
+Epoch                  490.000000
+Training Loss            1.346162
+Training Accuracy        0.926215
+Training Precision       0.927161
+Training Recall          0.926215
+Training F1-Score        0.925150
+Validation Loss          1.680296
+Validation Accuracy      0.593750
+Validatio Precision      0.603052
+Validatio Recall         0.593750
+Validatio F1-Score       0.588321
+Name: 489, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, Level: 24, Epochs: 500
+Epoch                  486.000000
+Training Loss            1.305487
+Training Accuracy        0.967882
+Training Precision       0.968196
+Training Recall          0.967882
+Training F1-Score        0.967632
+Validation Loss          1.653156
+Validation Accuracy      0.607639
+Validatio Precision      0.616122
+Validatio Recall         0.607639
+Validatio F1-Score       0.603254
+Name: 485, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, Level: 32, Epochs: 500
+Epoch                  499.000000
+Training Loss            1.345248
+Training Accuracy        0.928819
+Training Precision       0.930956
+Training Recall          0.928819
+Training F1-Score        0.923361
+Validation Loss          1.638293
+Validation Accuracy      0.642361
+Validatio Precision      0.643789
+Validatio Recall         0.642361
+Validatio F1-Score       0.636221
+Name: 498, dtype: float64
+==================================================
+Model: CNN_LSTM, Dataset: ravdess, Level: 40, Epochs: 500
+Epoch                  485.000000
+Training Loss            1.314402
+Training Accuracy        0.963542
+Training Precision       0.964962
+Training Recall          0.963542
+Training F1-Score        0.963443
+Validation Loss          1.652185
+Validation Accuracy      0.618056
+Validatio Precision      0.610014
+Validatio Recall         0.618056
+Validatio F1-Score       0.609569
+Name: 484, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, Level: 16, Epochs: 500
+Epoch                  395.000000
+Training Loss            1.172662
+Training Accuracy        0.994643
+Training Precision       0.994660
+Training Recall          0.994643
+Training F1-Score        0.994640
+Validation Loss          1.267891
+Validation Accuracy      0.894643
+Validatio Precision      0.896702
+Validatio Recall         0.894643
+Validatio F1-Score       0.894788
+Name: 394, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, Level: 24, Epochs: 500
+Epoch                  268.000000
+Training Loss            1.167977
+Training Accuracy        0.998661
+Training Precision       0.998665
+Training Recall          0.998661
+Training F1-Score        0.998660
+Validation Loss          1.196266
+Validation Accuracy      0.969643
+Validatio Precision      0.970712
+Validatio Recall         0.969643
+Validatio F1-Score       0.969684
+Name: 267, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, Level: 32, Epochs: 500
+Epoch                  282.000000
+Training Loss            1.167514
+Training Accuracy        0.998214
+Training Precision       0.998217
+Training Recall          0.998214
+Training F1-Score        0.998214
+Validation Loss          1.183326
+Validation Accuracy      0.982143
+Validatio Precision      0.982371
+Validatio Recall         0.982143
+Validatio F1-Score       0.982100
+Name: 281, dtype: float64
+==================================================
+Model: LSTM, Dataset: tess, Level: 40, Epochs: 500
+Epoch                  410.000000
+Training Loss            1.166759
+Training Accuracy        0.999107
+Training Precision       0.999113
+Training Recall          0.999107
+Training F1-Score        0.999107
+Validation Loss          1.177257
+Validation Accuracy      0.989286
+Validatio Precision      0.989464
+Validatio Recall         0.989286
+Validatio F1-Score       0.989263
+Name: 409, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, Level: 16, Epochs: 500
+Epoch                  475.000000
+Training Loss            1.212647
+Training Accuracy        0.833697
+Training Precision       0.836273
+Training Recall          0.833697
+Training F1-Score        0.832890
+Validation Loss          1.641792
+Validation Accuracy      0.398254
+Validatio Precision      0.391576
+Validatio Recall         0.398254
+Validatio F1-Score       0.392464
+Name: 474, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, Level: 24, Epochs: 500
+Epoch                  498.000000
+Training Loss            1.234152
+Training Accuracy        0.813035
+Training Precision       0.814633
+Training Recall          0.813035
+Training F1-Score        0.811743
+Validation Loss          1.629846
+Validation Accuracy      0.408999
+Validatio Precision      0.407360
+Validatio Recall         0.408999
+Validatio F1-Score       0.407143
+Name: 497, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, Level: 32, Epochs: 500
+Epoch                  488.000000
+Training Loss            1.185448
+Training Accuracy        0.869310
+Training Precision       0.870133
+Training Recall          0.869310
+Training F1-Score        0.869084
+Validation Loss          1.657061
+Validation Accuracy      0.384822
+Validatio Precision      0.386828
+Validatio Recall         0.384822
+Validatio F1-Score       0.385009
+Name: 487, dtype: float64
+==================================================
+Model: LSTM, Dataset: crema, Level: 40, Epochs: 500
+Epoch                  448.000000
+Training Loss            1.415856
+Training Accuracy        0.645221
+Training Precision       0.647783
+Training Recall          0.645221
+Training F1-Score        0.644645
+Validation Loss          1.663568
+Validation Accuracy      0.372733
+Validatio Precision      0.372228
+Validatio Recall         0.372733
+Validatio F1-Score       0.371421
+Name: 447, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, Level: 16, Epochs: 500
+Epoch                  380.000000
+Training Loss            1.141472
+Training Accuracy        0.901042
+Training Precision       0.908397
+Training Recall          0.901042
+Training F1-Score        0.900608
+Validation Loss          1.502360
+Validation Accuracy      0.541667
+Validatio Precision      0.536248
+Validatio Recall         0.541667
+Validatio F1-Score       0.535061
+Name: 379, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, Level: 24, Epochs: 500
+Epoch                  380.000000
+Training Loss            1.214968
+Training Accuracy        0.825521
+Training Precision       0.827549
+Training Recall          0.825521
+Training F1-Score        0.825006
+Validation Loss          1.526837
+Validation Accuracy      0.510417
+Validatio Precision      0.532891
+Validatio Recall         0.510417
+Validatio F1-Score       0.513060
+Name: 379, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, Level: 32, Epochs: 500
+Epoch                  442.000000
+Training Loss            1.239588
+Training Accuracy        0.807292
+Training Precision       0.816723
+Training Recall          0.807292
+Training F1-Score        0.794529
+Validation Loss          1.489388
+Validation Accuracy      0.552083
+Validatio Precision      0.574710
+Validatio Recall         0.552083
+Validatio F1-Score       0.531605
+Name: 441, dtype: float64
+==================================================
+Model: LSTM, Dataset: savee, Level: 40, Epochs: 500
+Epoch                  485.000000
+Training Loss            1.199846
+Training Accuracy        0.843750
+Training Precision       0.855513
+Training Recall          0.843750
+Training F1-Score        0.841586
+Validation Loss          1.494611
+Validation Accuracy      0.552083
+Validatio Precision      0.549210
+Validatio Recall         0.552083
+Validatio F1-Score       0.535870
+Name: 484, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, Level: 16, Epochs: 500
+Epoch                  485.000000
+Training Loss            1.383789
+Training Accuracy        0.889757
+Training Precision       0.897536
+Training Recall          0.889757
+Training F1-Score        0.891287
+Validation Loss          1.784107
+Validation Accuracy      0.475694
+Validatio Precision      0.490953
+Validatio Recall         0.475694
+Validatio F1-Score       0.474353
+Name: 484, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, Level: 24, Epochs: 500
+Epoch                  491.000000
+Training Loss            1.432519
+Training Accuracy        0.843750
+Training Precision       0.857045
+Training Recall          0.843750
+Training F1-Score        0.843272
+Validation Loss          1.901563
+Validation Accuracy      0.361111
+Validatio Precision      0.375488
+Validatio Recall         0.361111
+Validatio F1-Score       0.354746
+Name: 490, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, Level: 32, Epochs: 500
+Epoch                  497.000000
+Training Loss            1.484715
+Training Accuracy        0.788194
+Training Precision       0.793129
+Training Recall          0.788194
+Training F1-Score        0.786424
+Validation Loss          1.931858
+Validation Accuracy      0.336806
+Validatio Precision      0.346191
+Validatio Recall         0.336806
+Validatio F1-Score       0.328289
+Name: 496, dtype: float64
+==================================================
+Model: LSTM, Dataset: ravdess, Level: 40, Epochs: 500
+Epoch                  497.000000
+Training Loss            1.463734
+Training Accuracy        0.811632
+Training Precision       0.811514
+Training Recall          0.811632
+Training F1-Score        0.811170
+Validation Loss          1.906704
+Validation Accuracy      0.357639
+Validatio Precision      0.366988
+Validatio Recall         0.357639
+Validatio F1-Score       0.354765
+Name: 496, dtype: float64
+==================================================
